@@ -1,4 +1,4 @@
-# 🎯 Rock-Vs-Mine-Prediction-
+# 🎯 Rock-Vs-Mine-Prediction
 This project explores the application of machine learning to classify rocks and mines underwater using sonar data. It aims to improve submarine navigation safety and reduce collision risks by developing a model to distinguish between these objects based on sonar signal features.
 
 # 🛒Libraries used for this project:
@@ -21,11 +21,9 @@ The code likely includes a step to load the sonar data using Pandas. This would 
 ✅**2. Data Pre-processing:**
 Before feeding the data to our machine learning model, we need to ensure it's clean and ready for analysis. This might involve:
 
-          ▪ Handling missing values: Techniques like mean imputation or deletion can be used to fill in missing data points.
-          
-          ▪ Outlier detection: Identifying and potentially removing data points that deviate significantly from the norm.
-          
-          ▪ Data normalization: Scaling the data to a common range can improve the performance of machine learning models.
+▪**Handling missing values**: Techniques like mean imputation or deletion can be used to fill in missing data points.
+▪**Outlier detection:** Identifying and potentially removing data points that deviate significantly from the norm.
+▪**Data normalization:** Scaling the data to a common range can improve the performance of machine learning models.
 
 ✅**3. Train-Test Split Teaching the Model:**
 
