@@ -4,9 +4,13 @@ This project explores the application of machine learning to classify rocks and 
 # 🛒Libraries used for this project:
 
 **numpy as np:** This line imports the NumPy library, which is commonly used for scientific computing and array manipulation in Python.
+
 **pandas as pd**: This line imports the Pandas library, which is a powerful tool for data analysis and manipulation in Python. It provides data structures and operations specifically designed for working with tabular data.
+
 **from sklearn.model_selection import train_test_split:** This line imports the train_test_split function from the scikit-learn library. This function is used to split a dataset into training and testing sets for machine learning models.
+
 **from sklearn.linear_model import LogisticRegression:** This line imports the LogisticRegression class from the scikit-learn library. This class is used to implement the logistic regression algorithm, which is a machine learning algorithm commonly used for binary classification problems.
+
 **from sklearn.metrics import accuracy_score:** This line imports the accuracy_score function from the scikit-learn library. This function is used to evaluate the performance of a classification model by calculating its accuracy.
 
 # 📋Let's delve into the steps involved:
@@ -19,7 +23,9 @@ Before feeding the data to our machine learning model, we need to ensure it's cl
 
 **Handling missing values:**
 Techniques like mean imputation or deletion can be used to fill in missing data points.
+
 **Outlier detection:** Identifying and potentially removing data points that deviate significantly from the norm.
+
 **Data normalization:** Scaling the data to a common range can improve the performance of machine learning models.
 
 ✅**3. Train-Test Split Teaching the Model:**
